@@ -1,7 +1,7 @@
 import string
 import os
 while True:
-    print('Rock, paper scisors')
+    print('Rock, paper scissors')
     game_or_exit = input('n- new game, e- exit \n')
     if game_or_exit == 'n':
         os.system('clear')
@@ -9,13 +9,13 @@ while True:
         player_two_check = False
         while player_one_check == False:
             os.system('clear')
-            player_one = input('r- rock p-paper s-scisors player one \n')
+            player_one = input('r- rock p-paper s-scissors player one \n')
             if player_one in ('r','p','s'):
                 player_one_check = True
                 os.system('clear')
         while player_two_check == False:
             os.system('clear')
-            player_two = input('r- rock p-paper s-scisors player two \n')
+            player_two = input('r- rock p-paper s-scissors player two \n')
             if player_two in ('r','p','s'):
                 player_two_check = True
                 os.system('clear')
